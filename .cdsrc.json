@@ -1,0 +1,31 @@
+{
+    "[development]": {
+    "auth": {
+      "passport": {
+        "strategy": "mock",
+        "users": {
+          "d.matveev@jsa-group.ru": {
+            "password": "initP19@",
+            "ID": "riskviewer",
+            "userAttributes": {
+              "email": "d.matveev@jsa-group.ru"
+            },
+            "roles": [
+              "RiskViewer"
+            ]
+          },
+          "d.matveev@jsa-group.ru": {
+            "password": "initP19@",
+            "ID": "riskmanager",
+            "userAttributes": {
+              "email": "d.matveev@jsa-group.ru"
+            },
+            "roles": [
+              "RiskManager"
+            ]
+          }
+        }
+      }
+    }
+  }
+}
